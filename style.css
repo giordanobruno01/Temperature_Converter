@@ -34,12 +34,10 @@ input{
 
 #cel{
     background-color: rgba(14, 226, 226, 0.484);
-    
-    
-    
+
   
 }
-#far{
+#fah{
     background-color: rgba(15, 201, 201, 0.836);
     
     
@@ -47,4 +45,7 @@ input{
 #kel{
     background-color: rgba(96, 145, 236, 0.67);
     
+}
+#color{
+    background-color: pink;
 }
