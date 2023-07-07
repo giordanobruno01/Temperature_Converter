@@ -15,8 +15,8 @@ function converC(){
     document.getElementById("test1").innerHTML = kel + " Kelvin";
     console.log(fah + " in Console")
 
-    document.getElementById("fah").setAttribute("value",fah);
-    document.getElementById("kel").setAttribute("value",kel);
+    document.getElementById("fah").setAttribute("placeholder",(temp*1.8)+32);
+    document.getElementById("kel").setAttribute("placeholder",(temp*1) + 273.15);
 
 }
 function converF(){
@@ -28,8 +28,8 @@ function converF(){
     document.getElementById("test2").innerHTML = cel + " Celcius";
     document.getElementById("test3").innerHTML = kel + " Kelvin";
 
-    document.getElementById("cel").setAttribute("value",cel);
-    document.getElementById("kel").setAttribute("value",kel);
+    document.getElementById("cel").setAttribute("placeholder",cel);
+    document.getElementById("kel").setAttribute("placeholder",kel);
 }
 function converK(){
     var temp = document.getElementById("kel").value
@@ -40,6 +40,6 @@ function converK(){
     document.getElementById("test4").innerHTML = cel + " Celcius";
     document.getElementById("test5").innerHTML = fah + " Fahrenheit";
 
-    document.getElementById("cel").setAttribute("value",temp - 273.15);
+    document.getElementById("cel").setAttribute("placeholder",temp - 273.15);
     document.getElementById("fah").setAttribute("placeholder",fah);
 }
