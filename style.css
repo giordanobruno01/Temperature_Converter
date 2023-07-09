@@ -1,51 +1,36 @@
-table{
-    margin-top: 40px;
-    border-spacing: 1px;
-   border: 1px solid white;
+table {
+  margin-top: 40px;
 
-    
+  border: 1px solid white;
+
+  align-items: center;
 }
-#title{
-    
-    padding: 0px;
-   
-    
-
+#title {
+  padding: 0px;
 }
-th{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
-
+th {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-input{
-    padding: 20px;
-    border: 1px;
-    color: black;
-    
-
+input {
+  padding: 20px;
+  border: 1px;
+  color: black;
 }
-::placeholder{
-    color: white;
-    
+::placeholder {
+  color: white;
 }
 
-#cel{
-    background-color: rgba(14, 226, 226, 0.484);
-
-  
+#cel {
+  background-color: rgba(14, 226, 226, 0.484);
 }
-#fah{
-    background-color: rgba(15, 201, 201, 0.836);
-    
-    
+#fah {
+  background-color: rgba(15, 201, 201, 0.836);
 }
-#kel{
-    background-color: rgba(96, 145, 236, 0.67);
-    
+#kel {
+  background-color: rgba(96, 145, 236, 0.67);
 }
-#color{
-    background-color: pink;
+#color {
+  background-color: pink;
 }
