@@ -2,6 +2,8 @@ table {
   margin-top: 40px;
 
   border: 1px solid white;
+  margin-left: 50%;
+  margin-right: 50%;
 
   align-items: center;
 }
